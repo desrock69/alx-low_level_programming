@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main -my entry point
  *
@@ -15,4 +16,6 @@ int main(void)
 	putchar(ch);
 
 	putchar('\n');
+
+	return (0);
 }
