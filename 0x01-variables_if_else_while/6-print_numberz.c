@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
-#include <unistd.h>
 /**
  * main - my main
  *
