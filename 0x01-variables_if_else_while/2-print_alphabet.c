@@ -13,7 +13,7 @@ int main(void)
 {
 	char chr;
 
-	for (chr =  'a'; chr <= 'z' chr++)
+	for (chr = 'a'; chr <= 'z' chr++)
 	{
 		chr = tolower(chr);
 		putchar(chr);
