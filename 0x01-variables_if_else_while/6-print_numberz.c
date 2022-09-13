@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - my main
  *
@@ -12,7 +13,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 
-		printf("%d", i);
+		putchar(i);
 	
 	putchar('\n');
 
