@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-	char ch;
+		char *sh = "Holberton";
 
-	while (char = ch;)
+		while (*sh)
 
-	putchar(ch);
-
-	putchar('\n');
-
-	return (0);
+		{
+			_putchar(*sh);
+			sh++;
+		}
+		_putchar('\n');
+		return (0);
 }
