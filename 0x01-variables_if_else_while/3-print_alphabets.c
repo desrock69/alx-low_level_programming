@@ -17,7 +17,7 @@ int main(void)
 	putchar(chr);
 
 	for (j = 'a'; j <= 'z'; j++)
-		j = toupper(chr);
+		j = toupper(j);
 			putchar(j);
 
 			putchar('\n');
