@@ -15,13 +15,15 @@ int main(void)
 	char upper_case_char;
 
 	for (chr = 'a'; chr <= 'z'; chr++)
+	{
 		lower_case_char = tolower(chr);
-	putchar(lower_case_char);
-
+		putchar(lower_case_char);
+	}
 	for (j = 'a'; j <= 'z'; j++)
+	{
 		upper_case_char = toupper(j);
-			putchar(upper_case_char);
-
+		putchar(upper_case_char);
+	}
 			putchar('\n');
 			return (0);
 }
