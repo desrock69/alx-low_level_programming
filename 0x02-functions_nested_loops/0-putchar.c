@@ -1,23 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
+#include "main.h"
 /**
- * main -my entry point
+ * main - prints _putchar and a new line
  *
- * Description:print ch
+ * Description:alx program
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-		char *sh = "Holberton";
+	char ch[8] = "_putchar";
+	int i;
 
-		while (*sh)
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
+	_putchar('\n')
 
-		{
-			_putchar(*sh);
-			sh++;
-		}
-		_putchar('\n');
 		return (0);
-}
