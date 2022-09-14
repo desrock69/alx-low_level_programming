@@ -8,6 +8,6 @@ int main(void)
 	char ch;
 	int i;
 
-	char = _putchar(word[i]
+	char = _putchar(ch[i]);
 
 			return (0);
