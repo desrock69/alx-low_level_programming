@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * main - prints _putchar and a new line
@@ -10,17 +8,14 @@
  */
 int main(void)
 {
-	char ch = '_putchar';
-	int i = 5;
-
-	for (i = 0; i < 8; i++)
+	char *sh = '_putchar';
+	
+	while (*sh)
 	{
-		putchar(ch);
+		_putchar(*sh);
+		sh++;
 	}
+	_putchar('\n);
 
-	printf(ch);
-	/**
-		putchar('\n');
-		return (0);
-	*/
+	return (0);	
 }
