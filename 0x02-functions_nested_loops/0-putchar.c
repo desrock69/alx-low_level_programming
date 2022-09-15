@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * main - prints _putchar and a new line
+ * main - Entry point
  *
- * Description:alx program
- *
- * Return: Always 0
+ * Return: always 0 (Success)
  */
 int main(void)
 {
-	char *sh = '_putchar';
-	
+	char *sh = "_putchar";
+
 	while (*sh)
 	{
 		_putchar(*sh);
 		sh++;
 	}
-	_putchar('\n);
+	_putchar('\n');
 
-	return (0);	
+	return (0);
 }
