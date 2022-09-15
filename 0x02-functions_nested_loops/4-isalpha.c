@@ -2,6 +2,8 @@
 /**
  * _isaplha - a fxn that checks for alphabetic character
  * @c: single letter input
+ * Description: a lalalala
+ *
  * Return: 1 if c is a letter (lower or uppercase), 0 otherwise
  */
 int _isalpha(int c)
