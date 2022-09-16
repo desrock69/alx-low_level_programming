@@ -20,13 +20,13 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%d", b);
+			printf("%d", b[]);
 		else if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%d", fb);
+			printf("%d", fb)[];
 		else if (i % 3 == 0)
-			printf("%s ", f);
+			printf("%s ", f[]);
 		else if (i % 5 == 0)
-			printf("%s ", b);
+			printf("%s ", b[]);
 		else
 			printf("%d ", i);
 	}
